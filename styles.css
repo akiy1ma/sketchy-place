@@ -1,0 +1,53 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.header-text {
+    font-size: 36px;
+    font-weight: 800;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(222, 229, 236);
+    text-align: center;
+    align-self: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(41, 37, 43);
+}
+
+.page-content {
+    background-color: rgb(75, 70, 70);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 72px;
+}
+
+.drawing-field {
+    height: 480px;
+    width: 480px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+    /*box-shadow: 6px rgb(255, 255, 255);*/
+}
+
+.field-block {
+    height: 30px;
+    width: 30px;
+}
