@@ -70,6 +70,10 @@ button {
     border-radius: 10px;
 }
 
+.enabled {
+    background-color: blueviolet;
+}
+
 input[type="color"] {
     border: none;
     width: 80px;
